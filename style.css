@@ -1,0 +1,136 @@
+body{
+  margin: 0%;
+}
+.img1{
+    width: 100%;  
+}
+.container{
+  width: 100%;
+  background: #0a0b27;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 10px;
+  position: fixed;
+  z-index: 1;
+}
+.logo{
+  width: 119px;
+  height: 26px;
+}
+.nav_links {
+  list-style: none;
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+nav{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  margin-left: 248px;
+  background: #0a0b27;
+}
+.nav_links li{
+  font-family: "merivaregular";
+}
+.nav_links li a{
+  color: white;
+  transition: all 0.3s;
+  float: left;
+  text-decoration: none;
+}
+.nav_links li a:hover {
+  color: red;
+}
+.nav_links li a i{
+  color: #fff;
+    font-size: 18px;
+    padding-left: 8px;
+    display: inline-block !important;
+    text-align: center;
+    vertical-align: middle;
+    transition: all .5s
+}     
+ 
+
+.left_side{
+    position: relative;
+    background: black;
+    width: 50%;
+    height: 999px;
+    float: left;
+  }
+.leave{
+    position: absolute;
+    width: 190px;
+    padding: 230px;
+    text-align: center;
+}
+.text h1{
+  color: white;
+  text-align: center;
+  font-family: EksellDisplayWeb-Small;
+  font-size: 80px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+.text{
+  padding: 300px 0;
+  position: relative;
+}
+.right_side{
+    font-family: "Meriva, sans-serif";
+    font-size: 25px;
+    line-height: 1.4;
+    background:white;
+    width: 50%;
+    height: 1000px;
+    display: flex;  
+  }
+.content{
+  text-align: left;
+  padding: 120px;
+}
+.right_side p{
+  text-align: left;
+}
+.img2{
+  width: 1351px;
+  height: 759px;
+  position: relative;
+}
+.footer{
+    background: white;
+    width: 1251px;
+    padding: 50px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-container > div {
+  text-align: left;
+  font-size: 14px;
+  height: 14px;
+}
+.grid-item a {
+  font-weight: bold;
+  font-size: 15px ;
+  color: #0a0b27;
+  min-height: 1px;
+  text-decoration: none;
+}
+.grid-item i {
+  font-size: 20px;
+}
+.grid-item a:hover{
+  color: red;
+  text-decoration: underline;
+}
+  
